@@ -10,3 +10,9 @@
   
 </template>
 
+<!----<style lang="css">
+  #nav .vue-school-active-link{
+    color: red;
+    border-bottom: 2px solid red;
+  }
+</style>-->
