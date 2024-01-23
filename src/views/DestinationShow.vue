@@ -6,6 +6,11 @@
         <p>{{destination.description}}</p>
       </div>
     </section>
+
+    <section class="experiences">
+      <h2>Top Experiences in {{ destination.name }}</h2>
+    </section>
+    
   </template>
   <script>
   import sourceData from '@/data.json'
