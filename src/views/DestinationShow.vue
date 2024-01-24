@@ -9,6 +9,13 @@
 
     <section class="experiences">
       <h2>Top Experiences in {{ destination.name }}</h2>
+      <div class="cards">
+        <ExperienceCard
+        v-for="experience in destination.experiences"
+        :key="experience.slug"
+        :experience="experience"
+        />
+      </div>
     </section>
     
   </template>
