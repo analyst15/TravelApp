@@ -14,7 +14,9 @@
   </template>
   <script>
   import sourceData from '@/data.json'
+  import ExperienceCard from '@/components/ExperienceCard.vue';
   export default {
+    components: {ExperienceCard},
     props: {
       id: {type: Number, required: true}
     },

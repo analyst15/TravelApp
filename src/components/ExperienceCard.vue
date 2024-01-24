@@ -6,3 +6,10 @@
         </span>
     </div>
 </template>
+<script>
+export default {
+    props: {
+        experience: {type: Object, required: true,}
+    }
+}
+</script>
