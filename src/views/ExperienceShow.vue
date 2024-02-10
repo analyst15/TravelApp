@@ -1,9 +1,11 @@
 <template>
+<div>
     <section>
         <h1>{{ experience.name }}</h1>
         <img src="'/images/${experience.image}'" :alt="experience.name">
         <p>{{ experience.description }}</p>
     </section>
+</div>
 </template>
 <script>
 import sourceData from '@/data.json'
